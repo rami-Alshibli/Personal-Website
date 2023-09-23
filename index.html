@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="master.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body >
+    <section class="hero">
+      <header>
+        <nav>
+          <a href="#" class="logo"><span>RA</span>mi</a>
+
+          <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+          </div>
+
+          <span><i class="fa-solid fa-sun btn-mode"></i></span>
+        </nav>
+      </header>
+
+      <div class="container">
+        <div class="text">
+          <h4>Hello my name is</h4>
+          <h1>Rami Alshibli</h1>
+          <span>Front End developer</span>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
+            facilis dignissimos quod iste iure veniam sapiente ab quos error
+          </p>
+
+          <a href="https://github.com/rami-Alshibli/" class="btn">Download CV</a>
+        </div>
+
+        <div class="image">
+          <img src="tinywow_change_bg_photo_35269364.png" alt="">
+
+          <div class="social-icon">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      let btn = document.querySelector(".btn-mode");
+      btn.onclick = function () {
+        document.body.classList.toggle("white-theme");
+        btn.classList.toggle("fa-sun");
+      btn.classList.toggle("fa-moon");
+      }
+
+    </script>
+  </body>
+</html>
